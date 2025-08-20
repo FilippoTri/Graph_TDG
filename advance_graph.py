@@ -143,19 +143,3 @@ plt.figure()
 plt.plot(np.arange(0,numero_punti_grafico),rho)
 print(rho[numero_punti_grafico-1])
 plt.show()
-
-
-
-
-
-
-
-
-#def trova_probabilità(funzione,minimo,massimo):
-#    totale = integrate.quad(funzione,minimo,massimo)[0]
-#    probabilità = np.zeros(massimo)
-#
-#    for i in range(minimo,massimo):
-#        probabilità[i] = integrate.quad(funzione,i-0.5,i+0.5)[0]*(1/totale)
-#    probabilità[minimo] = integrate.quad(funzione,minimo,minimo+0.5)[0]*(1/totale)
-#    return probabilità
