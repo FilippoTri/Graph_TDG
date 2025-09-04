@@ -1,0 +1,16 @@
+For program graph_autostop.py:
+
+numero_nodi = number of nodes in the graph, it hardly handles numbers over 400.
+
+zero_uno = if it has a value of 0 then every agent starts with effort 0, if if has a value of 1 every agent starts with effort 1.
+
+definisci_funzione = the distribution function that decides the amount of links in the graph, there are 3 as starters but modify as you please.
+
+The function show how the graph converges to a Nash equilibrium, in the animation yellow nodes are effort takers while the black nodes exert no effort. Around a node
+there can be a red circle which means that node is not in equilibrium. The animation ends when the graph is in equilibrium and plots a figure where the size of each
+node is proportional to the amount of connections it has. Lastly it plots a figure that shows the amount of effort takers over time.
+
+
+For program no_figure.py:
+
+Same as the previous program but for big graphs. It doesn't plot the graphs but only shows a graph with the amount of effort takers over time.
