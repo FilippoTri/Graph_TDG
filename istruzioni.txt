@@ -4,12 +4,14 @@ numero_nodi = numero di nodi nel grafo, difficilmente regge numeri sopra i 400.
 
 zero_uno = se vale 0 il grafo parte con tutti gli agenti hanno sforzo 0 se vale 1 tutti partono con sforzo 1.
 
-funzione = la funzione che decide la densità di collegamenti nel grafico, ne ho messe 3 come partenza ma ovviamente mettete quella che volete
+definisci_funzione = la funzione che decide la densità di collegamenti nel grafico, ne ho messe 3 come partenza ma ovviamente mettete quella che volete
 
 La funzione mostra come il grafo tende ad un equilibrio di Nash, nell'animazione i nodi gialli stanno facendo sforzo e quelli neri no. Intorno ad ogni nodo potrebbe 
 esserci un cerchio rosso che indica che non è in equilibrio. L'animazione finisce quando il grafo è in equilibrio e stampa un altro grafico in cui la dimensione di 
 ogni nodo è proporzionale al suo numero di connessioni. Stampa poi un ultimo grafico che mostra per ogni intervallo di tempo i nodi che fanno sforzo.
 
-Per il programma no_figure.py
+
+Per il programma no_figure.py:
 
 Stessa cosa del programma precedente ma per grafi molto grandi. Non stampa i grafi ma solo il numero di nodi che fanno sforzo nel tempo.
+
